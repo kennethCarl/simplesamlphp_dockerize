@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96381f03-1986-4025-a818-464deb6b41cc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="v7-saml-service" id="f7245691-3edb-4575-b7fa-ca2034f7a405" name="v7-saml-service" port="443" />
+      <server host="timeless-dev-v7" id="8c2bc967-44b9-4739-8d53-121e8f8eb415" name="timeless-dev-v7" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/vendor/symfony/http-client-contracts/Test/Fixtures/web" remote-root="/Users/kennethcarlybanez/Desktop/Version-7/public" />
+        </path_mappings>
+      </server>
+      <server host="timeless-dev-v7" id="a95ab3c2-b623-402a-bd75-ad8dd080f756" name="timeless-dev-v7 (1)" port="443" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/vendor/symfony/http-client-contracts/Test/Fixtures/web" remote-root="/Users/kennethcarlybanez/Desktop/Version-7/public" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/robrichards/xmlseclibs" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/gettext/gettext" />
+      <path value="$PROJECT_DIR$/vendor/simplesamlphp/twig-configurable-i18n" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/phpfastcache/riak-client" />
+      <path value="$PROJECT_DIR$/vendor/simplesamlphp/saml2" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/simplesamlphp/assert" />
+      <path value="$PROJECT_DIR$/vendor/simplesamlphp/composer-module-installer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/gettext/languages" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/whitehat101/apr1-md5" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/vimeo/psalm" />
+      <path value="$PROJECT_DIR$/vendor/openlss/lib-array2xml" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/advanced-json-rpc" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/language-server-protocol" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/netresearch/jsonmapper" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/glob" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/vendor/simplesamlphp/simplesamlphp-test-framework" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2FHfrPvdVHT0A1EFlq3vXRrATBY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/simplesamlphp_docker/images/php7-apache" />
+      <recent name="$PROJECT_DIR$/simplesamlphp_docker" />
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$/docker/images/php7-apache/ssl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker/ssl" />
+      <recent name="$PROJECT_DIR$/docker/images/php7-apache" />
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96381f03-1986-4025-a818-464deb6b41cc" name="Default Changelist" comment="" />
+      <created>1664154127588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664154127588</updated>
+      <workItem from="1664154128705" duration="1610000" />
+      <workItem from="1664156006438" duration="35612000" />
+      <workItem from="1664519223886" duration="15475000" />
+      <workItem from="1664548339141" duration="745000" />
+      <workItem from="1664620618530" duration="14362000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664155829435">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1664155829435" />
+    <state x="454" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1664629681651">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="454" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1664629681651" />
+    <state width="711" height="466" key="DebuggerActiveHint" timestamp="1664525458455">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="711" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1664525458455" />
+    <state width="523" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1664187936714" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1664547752906">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1664547752906" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1664525482680" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1664547752905">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1664547752905" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1664525482680" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1664547752905">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1664547752905" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1664525482679" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1664547752906">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1664547752906" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1664525482680" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1664547752917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1664547752917" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1664525482681" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1664547752912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1664547752912" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1664525482680" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1664547752907">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1664547752907" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1664525482680" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1664547752916">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1664547752916" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1664525482680" />
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom" timestamp="1664547752919">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1664547752919" />
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom/0.25.1440.875@0.25.1440.875" timestamp="1664525482681" />
+    <state width="1398" height="304" key="GridCell.Tab.2.center" timestamp="1664547752918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1664547752918" />
+    <state width="1398" height="304" key="GridCell.Tab.2.center/0.25.1440.875@0.25.1440.875" timestamp="1664525482681" />
+    <state width="1398" height="304" key="GridCell.Tab.2.left" timestamp="1664547752917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1664547752917" />
+    <state width="1398" height="304" key="GridCell.Tab.2.left/0.25.1440.875@0.25.1440.875" timestamp="1664525482681" />
+    <state width="1398" height="304" key="GridCell.Tab.2.right" timestamp="1664547752918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1664547752918" />
+    <state width="1398" height="304" key="GridCell.Tab.2.right/0.25.1440.875@0.25.1440.875" timestamp="1664525482681" />
+    <state x="540" y="377" key="NewPhpFileDialog" timestamp="1664634549670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="540" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1664634549670" />
+    <state x="558" y="234" key="PhpDebugProjectChooserDialog" timestamp="1664190302832">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="558" y="234" key="PhpDebugProjectChooserDialog/0.25.1440.875@0.25.1440.875" timestamp="1664190302831" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1664525141718">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1664525141718" />
+    <state x="421" y="205" width="597" height="582" key="find.popup" timestamp="1664636503376">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="597" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1664636503376" />
+    <state x="385" y="176" width="670" height="696" key="search.everywhere.popup" timestamp="1664632004046">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="176" width="670" height="696" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1664632004046" />
+    <state x="385" y="176" width="670" height="696" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1664179343850" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/simplesamlphp/saml2/src/SAML2/Binding.php</url>
+          <line>95</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/www/sp/saml2-acs.php</url>
+          <line>268</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/lib/Auth/Source/SP.php</url>
+          <line>1132</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/lib/Auth/Source/SP.php</url>
+          <line>1219</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/lib/Auth/Source/SP.php</url>
+          <line>1201</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/Utils/HTTP.php</url>
+          <line>1087</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/www/sp/saml2-acs.php</url>
+          <line>256</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/Auth/ProcessingChain.php</url>
+          <line>194</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/Utils/HTTP.php</url>
+          <line>250</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/Auth/Source.php</url>
+          <line>152</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/lib/Auth/Source/SP.php</url>
+          <line>1239</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/www/sp/saml1-acs.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/www/sp/saml2-acs.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/Auth/State.php</url>
+          <line>271</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/Session.php</url>
+          <line>989</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/www/sp/saml2-acs.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/saml2/idp/SSOService.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/saml2/idp/SSOService.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/saml/lib/IdP/SAML2.php</url>
+          <line>280</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/saml2/idp/SSOService.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/saml2/idp/SSOService.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/SimpleSAML/IdP.php</url>
+          <line>277</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/simplesamlphp@phpunit_xml.xml" NAME="phpunit.xml Coverage Results" MODIFIED="1664520434393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

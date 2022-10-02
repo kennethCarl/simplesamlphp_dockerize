@@ -1,0 +1,271 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 12:31:30.292974 2022] [mpm_prefork:notice] [pid 23] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 configured -- resuming normal operations
+[Sat Oct 01 12:31:30.294622 2022] [core:notice] [pid 23] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 12:31:51.065689 2022] [proxy:error] [pid 24] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:14080 (127.0.0.1:14080) failed
+[Sat Oct 01 12:31:51.066645 2022] [proxy_http:error] [pid 24] [client 172.19.0.1:58002] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
+[Sat Oct 01 12:42:51.470050 2022] [ssl:emerg] [pid 45] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:42:51.470995 2022] [ssl:emerg] [pid 45] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:42:51.471821 2022] [ssl:emerg] [pid 45] AH02311: Fatal error initialising mod_ssl, exiting. See /var/log/apache2/error.log for more information
+AH00016: Configuration Failed
+[Sat Oct 01 12:46:05.491031 2022] [ssl:emerg] [pid 45] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:46:05.492309 2022] [ssl:emerg] [pid 45] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:46:05.493217 2022] [ssl:emerg] [pid 45] AH02311: Fatal error initialising mod_ssl, exiting. See /var/log/apache2/error.log for more information
+AH00016: Configuration Failed
+[Sat Oct 01 12:47:49.349010 2022] [ssl:emerg] [pid 44] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:47:49.350054 2022] [ssl:emerg] [pid 44] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:47:49.350686 2022] [ssl:emerg] [pid 44] AH02311: Fatal error initialising mod_ssl, exiting. See /var/log/apache2/error.log for more information
+AH00016: Configuration Failed
+[Sat Oct 01 12:48:32.738219 2022] [ssl:emerg] [pid 45] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:48:32.738769 2022] [ssl:emerg] [pid 45] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:48:32.739291 2022] [ssl:emerg] [pid 45] AH02311: Fatal error initialising mod_ssl, exiting. See /var/log/apache2/error.log for more information
+AH00016: Configuration Failed
+[Sat Oct 01 12:50:09.457100 2022] [ssl:emerg] [pid 24] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:50:09.457990 2022] [ssl:emerg] [pid 24] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:50:09.458717 2022] [ssl:emerg] [pid 24] AH02311: Fatal error initialising mod_ssl, exiting. See /var/log/apache2/error.log for more information
+AH00016: Configuration Failed
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 12:51:42.067326 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 12:51:42.068608 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 12:51:54.881570 2022] [authz_core:error] [pid 22] [client 172.19.0.1:58164] AH01630: client denied by server configuration: /var/www/html/
+[Sat Oct 01 12:51:55.842825 2022] [authz_core:error] [pid 22] [client 172.19.0.1:58164] AH01630: client denied by server configuration: /var/www/html/
+[Sat Oct 01 12:51:56.563842 2022] [authz_core:error] [pid 22] [client 172.19.0.1:58164] AH01630: client denied by server configuration: /var/www/html/
+[Sat Oct 01 12:51:58.540857 2022] [authz_core:error] [pid 22] [client 172.19.0.1:58164] AH01630: client denied by server configuration: /var/www/html/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 12:53:28.106948 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 12:53:28.111600 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 12:53:28.112906 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 12:54:28.275289 2022] [ssl:emerg] [pid 21] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:54:28.276171 2022] [ssl:emerg] [pid 21] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:54:28.276854 2022] [ssl:emerg] [pid 21] AH02312: Fatal error initialising mod_ssl, exiting.
+AH00016: Configuration Failed
+[Sat Oct 01 12:56:10.180717 2022] [ssl:emerg] [pid 22] AH02572: Failed to configure at least one certificate and key for v7-saml-service:443
+[Sat Oct 01 12:56:10.181523 2022] [ssl:emerg] [pid 22] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 12:56:10.182166 2022] [ssl:emerg] [pid 22] AH02312: Fatal error initialising mod_ssl, exiting.
+AH00016: Configuration Failed
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 12:57:31.840103 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 12:57:31.844804 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 12:57:31.845730 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 12:59:29.651549 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 12:59:29.656426 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 12:59:29.657641 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 13:03:48.327015 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 13:03:48.332122 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 13:03:48.333331 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 13:05:34.527895 2022] [ssl:emerg] [pid 23] AH02572: Failed to configure at least one certificate and key for saml-sp-idp:443
+[Sat Oct 01 13:05:34.528958 2022] [ssl:emerg] [pid 23] SSL Library Error: error:140A80B1:SSL routines:SSL_CTX_check_private_key:no certificate assigned
+[Sat Oct 01 13:05:34.529928 2022] [ssl:emerg] [pid 23] AH02312: Fatal error initialising mod_ssl, exiting.
+AH00016: Configuration Failed
+[Sat Oct 01 13:14:43.160851 2022] [ssl:warn] [pid 23] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 13:14:43.210637 2022] [ssl:warn] [pid 23] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 13:14:43.218642 2022] [mpm_prefork:notice] [pid 23] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 13:14:43.219569 2022] [core:notice] [pid 23] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 13:22:29.494485 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 13:22:29.555291 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 13:22:29.568549 2022] [mpm_prefork:notice] [pid 46] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 13:22:29.570104 2022] [core:notice] [pid 46] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 13:39:42.619564 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 13:39:42.663096 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 13:39:42.671468 2022] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 13:39:42.673588 2022] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 13:59:19.932165 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 13:59:19.949728 2022] [core:warn] [pid 44] AH00111: Config variable ${APACHE_PORT} is not defined
+[Sat Oct 01 13:59:19.950343 2022] [core:warn] [pid 44] AH00111: Config variable ${APACHE_SSL_PORT} is not defined
+[Sat Oct 01 13:59:19.956698 2022] [core:error] [pid 44] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_PORT} -- ignoring!
+[Sat Oct 01 13:59:19.962999 2022] [core:error] [pid 44] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_SSL_PORT} -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 13:59:19.988822 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 13:59:19.994895 2022] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 13:59:19.996292 2022] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:02:31.612328 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:02:31.630433 2022] [core:warn] [pid 21] AH00111: Config variable ${APACHE_PORT} is not defined
+[Sat Oct 01 14:02:31.631124 2022] [core:warn] [pid 21] AH00111: Config variable ${APACHE_SSL_PORT} is not defined
+[Sat Oct 01 14:02:31.637646 2022] [core:error] [pid 21] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_PORT} -- ignoring!
+[Sat Oct 01 14:02:31.645518 2022] [core:error] [pid 21] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_SSL_PORT} -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:02:31.672445 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:02:31.676152 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:02:31.681803 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:02:31.682921 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:03:08.364463 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:03:08.404540 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:03:08.406854 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:03:08.411324 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:03:08.412522 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:06:43.945147 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:06:44.010496 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:06:44.023444 2022] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:06:44.025326 2022] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:16:36.171028 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:16:36.215358 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:16:36.218376 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:16:36.226017 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:16:36.228184 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:21:50.519040 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:21:50.566778 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:21:50.571476 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:21:50.579446 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:21:50.580803 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:23:17.636351 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:23:17.689195 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:23:17.693262 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:23:17.699076 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:23:17.700844 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:31:05.311962 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:31:05.359112 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:31:05.365451 2022] [mpm_prefork:notice] [pid 46] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:31:05.366567 2022] [core:notice] [pid 46] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:34:32.491971 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:34:32.533427 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:34:32.536459 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:34:32.541925 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:34:32.543513 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:36:04.912954 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:36:04.955364 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:36:04.958252 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:36:04.962357 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:36:04.963658 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:37:01.468911 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:37:01.508792 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:37:01.511680 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:37:01.516502 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:37:01.517488 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:39:25.016000 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:39:25.055218 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:39:25.057391 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:39:25.061252 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:39:25.062039 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:41:14.615503 2022] [ssl:warn] [pid 23] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:41:14.654109 2022] [ssl:warn] [pid 23] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:41:14.656425 2022] [core:warn] [pid 23] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:41:14.661770 2022] [mpm_prefork:notice] [pid 23] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:41:14.662964 2022] [core:notice] [pid 23] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:44:40.643806 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:44:40.684715 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:44:40.687629 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:44:40.694010 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:44:40.694836 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:47:24.140889 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:47:24.184038 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:47:24.189371 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:47:24.194770 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:47:24.195761 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:49:42.571936 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:49:42.611283 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:49:42.613326 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:49:42.617320 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:49:42.618199 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:53:20.299408 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:53:20.340547 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:53:20.343863 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:53:20.348879 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:53:20.350505 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:54:20.752436 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:54:20.798480 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:54:20.801017 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 14:54:20.806401 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:54:20.807368 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 14:59:32.784183 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 14:59:32.826120 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 14:59:32.832202 2022] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 14:59:32.833565 2022] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:02:20.661512 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:02:20.676328 2022] [core:warn] [pid 45] AH00111: Config variable ${APACHE_PORT} is not defined
+[Sat Oct 01 15:02:20.677018 2022] [core:warn] [pid 45] AH00111: Config variable ${APACHE_SSL_PORT} is not defined
+[Sat Oct 01 15:02:20.677498 2022] [core:warn] [pid 45] AH00111: Config variable ${APACHE_SSL_PORT} is not defined
+[Sat Oct 01 15:02:20.683965 2022] [core:error] [pid 45] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_PORT} -- ignoring!
+[Sat Oct 01 15:02:20.691091 2022] [core:error] [pid 45] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_SSL_PORT} -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:02:20.718508 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:02:20.725312 2022] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:02:20.727026 2022] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:03:34.597257 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:03:34.636101 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:03:34.642439 2022] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:03:34.643993 2022] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:05:54.693633 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:05:54.732711 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:05:54.739352 2022] [mpm_prefork:notice] [pid 46] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:05:54.741040 2022] [core:notice] [pid 46] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:07:28.528501 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:07:28.573196 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:07:28.576694 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 15:07:28.583739 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:07:28.585270 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:08:25.965736 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:08:26.006114 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:08:26.011952 2022] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:08:26.013992 2022] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:08:52.224340 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:08:52.264980 2022] [ssl:warn] [pid 21] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:08:52.267334 2022] [core:warn] [pid 21] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 15:08:52.271696 2022] [mpm_prefork:notice] [pid 21] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:08:52.273068 2022] [core:notice] [pid 21] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:11:02.473294 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:11:02.528726 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:11:02.535516 2022] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:11:02.536971 2022] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:14:00.422668 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:14:00.467532 2022] [ssl:warn] [pid 22] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:14:00.470606 2022] [core:warn] [pid 22] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 01 15:14:00.475626 2022] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:14:00.476996 2022] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:15:03.301052 2022] [ssl:warn] [pid 44] AH01909: ${APP_DNS}:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:15:03.316351 2022] [core:warn] [pid 44] AH00111: Config variable ${APACHE_PORT} is not defined
+[Sat Oct 01 15:15:03.320930 2022] [core:warn] [pid 44] AH00111: Config variable ${APP_DNS} is not defined
+[Sat Oct 01 15:15:03.321984 2022] [core:warn] [pid 44] AH00111: Config variable ${APP_DNS} is not defined
+[Sat Oct 01 15:15:03.323475 2022] [core:warn] [pid 44] AH00111: Config variable ${APP_DNS} is not defined
+[Sat Oct 01 15:15:03.324367 2022] [core:warn] [pid 44] AH00111: Config variable ${APACHE_SSL_PORT} is not defined
+[Sat Oct 01 15:15:03.325413 2022] [core:warn] [pid 44] AH00111: Config variable ${APACHE_SSL_PORT} is not defined
+[Sat Oct 01 15:15:03.326349 2022] [core:warn] [pid 44] AH00111: Config variable ${APP_DNS} is not defined
+[Sat Oct 01 15:15:03.326958 2022] [core:warn] [pid 44] AH00111: Config variable ${APP_DNS} is not defined
+[Sat Oct 01 15:15:03.335074 2022] [core:error] [pid 44] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_PORT} -- ignoring!
+[Sat Oct 01 15:15:03.343346 2022] [core:error] [pid 44] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:${APACHE_SSL_PORT} -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:15:03.372956 2022] [ssl:warn] [pid 44] AH01909: ${APP_DNS}:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:15:03.380197 2022] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:15:03.382594 2022] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:17:08.077505 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:17:08.118830 2022] [ssl:warn] [pid 45] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:17:08.125410 2022] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:17:08.126325 2022] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:21:38.502275 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:21:38.548454 2022] [ssl:warn] [pid 46] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:21:38.555044 2022] [mpm_prefork:notice] [pid 46] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:21:38.556630 2022] [core:notice] [pid 46] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Oct 01 15:25:13.741929 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 01 15:25:13.805629 2022] [ssl:warn] [pid 44] AH01909: saml-sp-idp:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 01 15:25:13.817303 2022] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.54 (Ubuntu) PHP/7.4.32 OpenSSL/1.1.1 configured -- resuming normal operations
+[Sat Oct 01 15:25:13.820160 2022] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

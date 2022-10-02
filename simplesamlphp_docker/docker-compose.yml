@@ -1,0 +1,35 @@
+version: "3"
+services:
+  db:
+    image: "mysql:5.7"
+    ports:
+      - "$MYSQL_PORT:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: $MYSQL_PASSWORD
+      MYSQL_PORT: $MYSQL_PORT
+    volumes:
+      - "./data/mysql/init:/docker-entrypoint-initdb.d"
+      - "./data/mysql/db:/var/lib/mysql"
+      - "./data/mysql/conf:/etc/mysql/conf.d"
+  app:
+    tty: true
+    build: images/php7-apache
+    ports:
+      - $APACHE_PORT:81
+      - $APACHE_SSL_PORT:4431
+    volumes:
+      - $SOURCE_LOCATION:/var/www/html:delegated
+      - $APACHE_LOG_VOLUME:/var/log/apache2
+      - ./images/php7-apache/ssl:/var/ssl-cert
+      - ./images/php7-apache/php.ini:/etc/php/7.4/apache2/php.ini
+      - ./images/php7-apache/xdebug.ini:/etc/php/7.4/mods-available/xdebug.ini
+      - ./images/php7-apache/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+      - ./images/php7-apache/apache2.conf:/etc/apache2/apache2.conf
+      - ./images/php7-apache/ports.conf:/etc/apache2/ports.conf
+      - ./images/php7-apache/wait-for-mysql.sh:/root/wait-for-mysql.sh
+    environment:
+      APP_DNS: $APP_DNS
+      APACHE_PORT: $APACHE_PORT
+      APACHE_SSL_PORT: $APACHE_SSL_PORT
+    env_file:
+      - ../.env
