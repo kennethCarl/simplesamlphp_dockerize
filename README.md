@@ -7,7 +7,7 @@
 * Set SAML_IDP_SLS in ROOT DIRECTORY .env .env as the logout callback link of the connecting client that will use the SAML default IDP
 
 #Installation and Running
-* Add 127.0.0.1 saml-sp-idp in your host file or whatever you set in APP_DNS in simplesamlphp_docker/.env 
+* Add 127.0.0.1 saml-sp-idp in your host file (How to https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) or whatever you set in APP_DNS in simplesamlphp_docker/.env 
 * Open terminal or cmd
 * Execute cd simplesamlphp_docker
 * Execute docker-compose build
